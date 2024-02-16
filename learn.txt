@@ -1,3 +1,14 @@
 To create project - django-admin startproject <project_name> 
 
-To start new app - python manage.py startapp <app_name> 
+To start new app - python manage.py startapp <app_name>  
+{app means -- differnt funcationalities (like authentication , home page , user , products section )}
+
+To run the app -- python manage.py runserver 
+(if want to run on another surver : 0.0.0.0:5000 )
+
+Always add new apps to settings.py 
+
+
+urls.py - routing 
+views.py - for logics (backend work ) 
+
